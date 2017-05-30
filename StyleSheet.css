@@ -1,0 +1,14 @@
+﻿.divCentrado {
+
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+.titulo1 {
+    font-family:Arial;
+    color:navy;
+    font-size:30px;
+    font-weight:bolder
+
+}
