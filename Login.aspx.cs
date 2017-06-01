@@ -18,7 +18,7 @@ namespace EXAMEN
 
         protected void enter_Click(object sender, EventArgs e)
         {
-            String conexion = "Server=localhost;Database=topicosexamen;Uid=root;Pwd=7BEE8B95";
+            String conexion = "server=64.62.211.131; Database=efrain_basenube; Uid=efrain_efrain; pwd=123456789efra;";
             var mysql = new MySqlConnection(conexion);
 
             try
@@ -32,7 +32,7 @@ namespace EXAMEN
                 adapter.Fill(dt);
                 if (dt.Rows.Count == 1)
                 {
-                    Response.Redirect("MenuPrincipal.html");
+                    Response.Redirect(""); //<<<----AQUI VA LA PAGINA A QUE REDIRIGIRA EN CASO DE QUE SI PUEDA ENTRAR
                 }
                 else
                 {
