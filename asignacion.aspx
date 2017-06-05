@@ -10,25 +10,27 @@
         .auto-style1 {
         }
         .auto-style2 {
-            width: 215px;
+            width: 143px;
             height: 40px;
         }
         .auto-style3 {
             height: 40px;
         }
         .auto-style4 {
-            width: 215px;
+            width: 143px;
             height: 37px;
         }
         .auto-style5 {
             height: 37px;
         }
         .auto-style6 {
-            width: 215px;
+            width: 143px;
             height: 36px;
         }
         .auto-style7 {
             height: 36px;
+        }
+        .auto-style8 {
         }
     </style>
 </head>
@@ -39,50 +41,63 @@
         </div>
         <div class="divCentrado" style="width:400px;margin-left:auto;margin-right:auto">
     
-            <table style="width:100%;">
+            <table style="width:89%;">
                 <tr>
-                    <td class="auto-style1">&nbsp;</td>
+                    <td class="auto-style8">&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style6">ID Cajero</td>
                     <td class="auto-style7">
-                        <asp:TextBox ID="TextBox1" runat="server" Width="55px"></asp:TextBox>
+                        <asp:TextBox ID="tb_id" runat="server" Width="55px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style4">Nombre Cajero</td>
+                    <td class="auto-style4">Nombre</td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="TextBox2" runat="server" Width="159px"></asp:TextBox>
+                        <asp:TextBox ID="tb_nombre" runat="server" Width="187px"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">Apellido Paterno</td>
+                    <td class="auto-style3">
+                        <asp:TextBox ID="tb_apaterno" runat="server" Width="187px"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">Apellido Materno</td>
+                    <td class="auto-style3">
+                        <asp:TextBox ID="tb_amaterno" runat="server" Width="187px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style2">Sucursal Asignada</td>
                     <td class="auto-style3">
-                        <asp:DropDownList ID="DropDownList1" runat="server" Height="25px" Width="163px">
+                        <asp:DropDownList ID="ddl_sucursales" runat="server" Height="25px" Width="190px">
                         </asp:DropDownList>
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style1">Fecha Asignación</td>
+                    <td class="auto-style8">Fecha Asignación</td>
                     <td>
-                        <asp:Calendar ID="Calendar1" runat="server" Height="151px" Width="130px"></asp:Calendar>
+                        <asp:Calendar ID="c_fecha" runat="server" Height="151px" Width="130px"></asp:Calendar>
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style1">Motivo Asignación</td>
+                    <td class="auto-style8">Motivo Asignación</td>
                     <td>
-                        <asp:TextBox ID="TextBox3" runat="server" Height="84px" TextMode="MultiLine" Width="178px"></asp:TextBox>
+                        <asp:TextBox ID="tb_motivo" runat="server" Height="84px" TextMode="MultiLine" Width="187px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style1">&nbsp;</td>
-                    <td>
-                        &nbsp;</td>
+                    <td class="auto-style8" colspan="2" style="text-align:center">
+                        <asp:Label ID="l_msg" runat="server" style="text-align: center" Text="Label" ForeColor="Red" Visible="False"></asp:Label>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style1" colspan="2" style="text-align:center">
-                        <asp:ImageButton ID="ImageButton1" runat="server" Height="48px" ImageUrl="~/imgs/guardar.jpg" Width="50px" />
+                        <asp:ImageButton ID="ib_buscar" runat="server" Height="48px" ImageUrl="~/imgs/buscar.jpg" Width="50px" OnClick="ib_buscar_Click" />
+                        <asp:ImageButton ID="ib_guardar" runat="server" Height="48px" ImageUrl="~/imgs/guardar.jpg" Width="50px" OnClick="ib_guardar_Click" />
                     </td>
                 </tr>
             </table>
