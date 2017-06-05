@@ -110,6 +110,10 @@ public partial class asignacion : System.Web.UI.Page
 
             cmd.ExecuteNonQuery();
 
+            l_msg.Visible = true;
+
+            l_msg.Text = "Datos Guardados";
+
         }
 
 
