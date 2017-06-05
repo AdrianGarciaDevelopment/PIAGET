@@ -15,6 +15,7 @@
 .divCentrado_1 {
     border:dashed;
     width:800px;
+    height:800px;
     margin-left:auto;
     margin-right:auto;
 }
