@@ -13,15 +13,15 @@ public partial class asignacion : System.Web.UI.Page
     {
         // CONFIGURACIÓN LOCAL
        
-        String cs = "server=localhost;" + "uid=root;" + "database=topicos;";            
+        //String cs = "server=localhost;" + "uid=root;" + "database=topicos;";            
 
         // CONFIGURACIÓN EN LINEA
         
-        //String cs = System.Configuration.ConfigurationManager.ConnectionStrings["EFRAIN"].ToString(); 
+        String cs = System.Configuration.ConfigurationManager.ConnectionStrings["EFRAIN"].ToString(); 
 
         using (MySqlConnection conexion = new MySqlConnection(cs))
         {
-            String qs = "SELECT id_suc, nom_suc FROM Sucursal";
+            String qs = "SELECT PKid_suc, nom_suc FROM sucursal";
 
             MySqlDataAdapter adapter = new MySqlDataAdapter(qs, conexion);
 
@@ -31,7 +31,7 @@ public partial class asignacion : System.Web.UI.Page
 
             ddl_sucursales.DataTextField = "nom_suc";
 
-            ddl_sucursales.DataValueField = "id_suc";
+            ddl_sucursales.DataValueField = "PKid_suc";
 
             ddl_sucursales.DataSource = dt;
 
@@ -46,11 +46,11 @@ public partial class asignacion : System.Web.UI.Page
     {
         // CONFIGURACIÓN LOCAL
 
-        String cs = "server=localhost;" + "uid=root;" + "database=topicos;";
+       // String cs = "server=localhost;" + "uid=root;" + "database=topicos;";
 
         // CONFIGURACIÓN EN LINEA
 
-        //String cs = System.Configuration.ConfigurationManager.ConnectionStrings["EFRAIN"].ToString(); 
+        String cs = System.Configuration.ConfigurationManager.ConnectionStrings["EFRAIN"].ToString(); 
 
         using (MySqlConnection conexion = new MySqlConnection(cs))
         {
@@ -89,11 +89,11 @@ public partial class asignacion : System.Web.UI.Page
     {
         // CONFIGURACIÓN LOCAL
 
-        String cs = "server=localhost;" + "uid=root;" + "database=topicos;";
+        // String cs = "server=localhost;" + "uid=root;" + "database=topicos;";
 
         // CONFIGURACIÓN EN LINEA
 
-        //String cs = System.Configuration.ConfigurationManager.ConnectionStrings["EFRAIN"].ToString(); 
+        String cs = System.Configuration.ConfigurationManager.ConnectionStrings["EFRAIN"].ToString(); 
 
         using (MySqlConnection conexion = new MySqlConnection(cs))
         {
