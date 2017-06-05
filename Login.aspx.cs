@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -32,7 +32,7 @@ namespace EXAMEN
                 adapter.Fill(dt);
                 if (dt.Rows.Count == 1)
                 {
-                    Response.Redirect(""); //<<<----AQUI VA LA PAGINA A QUE REDIRIGIRA EN CASO DE QUE SI PUEDA ENTRAR
+                    Response.Redirect("Principal.aspx"); //<<<----AQUI VA LA PAGINA A QUE REDIRIGIRA EN CASO DE QUE SI PUEDA ENTRAR
                 }
                 else
                 {
