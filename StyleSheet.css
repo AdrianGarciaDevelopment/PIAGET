@@ -1,18 +1,19 @@
 ﻿/*Clasificacion por numero de los modulos del proyecto:
     1. Modulo Login.aspx
     2.
-    3.   
+    3.
 */
 
 .tituloPrincipal_1 {
+    text-align: center;
     font-family:Arial;
     color:red;
     font-size:30px;
-    font-weight:bolder
-
+    font-weight:bolder;
 }
 
 .divCentrado_1 {
+    border:dashed;
     width:800px;
     margin-left:auto;
     margin-right:auto;

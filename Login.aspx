@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="EXAMEN.Login" UnobtrusiveValidationMode="None"%>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="login.aspx.cs" Inherits="login"  UnobtrusiveValidationMode="None"%>
 
 <!DOCTYPE html>
 
@@ -9,8 +9,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <h1 class="tituloPrincipal_1">Bienvenidos al login!</h1>
-    <div class="divCentrado_1">
+    <h1>Bienvenidos al login!</h1>
+    <div class="divCentrado">
         <table>
             <tr>
                 <td><asp:TextBox ID="user" placeholder="Usuario" runat="server"></asp:TextBox></td>
