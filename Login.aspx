@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
     <h1>Bienvenidos al login!</h1>
-    <div class="container">
+    <div class="divCentrado">
         <table>
             <tr>
                 <td><asp:TextBox ID="user" placeholder="Usuario" runat="server"></asp:TextBox></td>
