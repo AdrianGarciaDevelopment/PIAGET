@@ -4,13 +4,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <link href="StyleSheet.css" rel="stylesheet" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Examen primer parcial</title>
 </head>
 <body>
     <form id="form1" runat="server">
-    <h1>Bienvenidos al login!</h1>
-    <div class="divCentrado">
+    <h1 class="tituloPrincipal_1">Bienvenidos al login!</h1>
+    <div class="divCentrado_1">
         <table>
             <tr>
                 <td><asp:TextBox ID="user" placeholder="Usuario" runat="server"></asp:TextBox></td>
