@@ -1,11 +1,11 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Principal.aspx.cs" Inherits="Principal" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="principal.aspx.cs" Inherits="principal" %>
 
 <!DOCTYPE html>
 
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-        <LINK REL="stylesheet" TYPE="text/css" HREF="misestilos.css">
+        
     <title></title>
 </head>
 <body>
