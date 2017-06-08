@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Principal.aspx.cs" Inherits="Principal" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Principal.aspx.cs" Inherits="Principal" %>
 
 <!DOCTYPE html>
 
@@ -21,13 +21,11 @@
             <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
             <DynamicMenuStyle BackColor="#F7F6F3" />
             <DynamicSelectedStyle BackColor="#5D7B9D" />
-            <DynamicItemTemplate>
-                <%# Eval("Text") %>
-            </DynamicItemTemplate>
             <Items>
                 <asp:MenuItem NavigateUrl="~/Cajeros.aspx" Text="Cajeros" Value="Cajeros"></asp:MenuItem>
                 <asp:MenuItem NavigateUrl="~/InsercionUsuario.aspx" Text="Usuarios" Value="Usuarios"></asp:MenuItem>
                 <asp:MenuItem NavigateUrl="~/Sucursal.aspx" Text="Sucursal" Value="Sucursal"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="Incidentes.aspx" Text="Incidentes" Value="Incidentes"></asp:MenuItem>
             </Items>
             <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
             <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
@@ -37,7 +35,7 @@
 
     
     </div>
-        <div style="text-align: center; width:100%;"><img src="Image/DBZ.png"</div>
+        <div style="text-align: center; width:100%;"><img src="http://icon-icons.com/icons2/67/PNG/512/shop_13338.png"</div>
 
         
     </form>
