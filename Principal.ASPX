@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Principal.aspx.cs" Inherits="Principal" %>
+=======
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="principal.aspx.cs" Inherits="principal" %>
+>>>>>>> 2e491b1de327222d6cd3f14ccee621247ed68c14
 
 <!DOCTYPE html>
 
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-        <LINK REL="stylesheet" TYPE="text/css" HREF="misestilos.css">
+        
     <title></title>
 </head>
 <body>

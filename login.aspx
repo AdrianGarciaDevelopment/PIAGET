@@ -10,7 +10,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <h1 class="tituloPrincipal_1">!Bienvenidos al login!</h1>
+   <h1 class="tituloPrincipal_1">!Bienvenidos al login!</h1>
     <div class="divCentrado_1">
         <table class="alineacionTable_1">
             <tr>
