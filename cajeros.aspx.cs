@@ -13,7 +13,7 @@ namespace ExamenAdriansilloEfraFinal
 {
     public partial class cajeros : System.Web.UI.Page
     {
-        MySqlConnection con = new MySqlConnection("Server=localhost; Database=examen_efrain_adrian; uid=root; pwd=laverga; ");
+        MySqlConnection con = new MySqlConnection("server=64.62.211.131; Database=efrain_basenube; Uid=efrain_efrain; pwd=123456789efra; ");
 
         protected void Page_Load(object sender, EventArgs e)
         {
