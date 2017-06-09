@@ -64,7 +64,7 @@ namespace ExamenAdriansilloEfraFinal
             }
             catch (MySqlException)
             {
-                mensage.Text = "Hubo un error compa";
+                mensage.Text = " sucedio un error";
             }
             finally
             {
@@ -123,7 +123,7 @@ namespace ExamenAdriansilloEfraFinal
                 "VALUES('" + nombre.Text + "','" + app.Text + "','" + apm.Text + "','" + bytes + "','" + tel.Text + "','" + dir.Text + "','" + contrato.Text + "','" + descanso.Text + "','" + sucursal.Text + "')";
                 cmd.ExecuteNonQuery();
 
-                mensage.Text = "Se inserto bien!";
+                mensage.Text = "insertado con exito!";
             }
             catch (MySqlException)
             {
@@ -160,12 +160,12 @@ namespace ExamenAdriansilloEfraFinal
                 cmd.CommandText = "DELETE FROM cajero WHERE id_caj = '" + id.Text + "'";
                 cmd.ExecuteNonQuery();
 
-                mensage.Text = "Se elimino";
+                mensage.Text = "Se elimino correctamente";
 
             }
             catch (MySqlException)
             {
-                mensage.Text = "ah ocurrido un error";
+                mensage.Text = "ocurrio un error";
             }
             finally
             {
@@ -194,12 +194,12 @@ namespace ExamenAdriansilloEfraFinal
                                 + "WHERE id_caj = " + id.Text ;
                 cmd.ExecuteNonQuery();
 
-                mensage.Text = "Se ah modificado";
+                mensage.Text = "Se modifico con exito";
 
             }
             catch (MySqlException)
             {
-                mensage.Text = "hubo un error";
+                mensage.Text = "ocurrio un error";
             }
             finally
             {
