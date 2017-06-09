@@ -106,18 +106,13 @@
     <form id="form1" runat="server">
     <div class="titulo">
           <img src="usuario.png" alt=""/>
-           <h1>? CAJEROS ?</h1>
+           <h1> CAJEROS </h1>
        </div>
         <div class="table">
             <div class="cell">
               <div class="menu">
                <h3>MENU DEL SISTEMA</h3>
-                <ul>
-                    <li><a href="Inicio.html">INICIO</a></li>
-                    <li><a href="Usuario.aspx">USUARIOS</a></li>
-                    <li><a href="cajeros.aspx">CAJEROS</a></li>
-                    <li><a href="sucursales.aspx">SUCURSALES</a></li>
-                </ul> 
+               
               </div>
             </div>
             <div class="cell">
