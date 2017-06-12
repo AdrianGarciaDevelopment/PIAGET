@@ -7,13 +7,13 @@ using System.Web.UI.WebControls;
 
 public partial class Principal : System.Web.UI.Page
 {
-<<<<<<< HEAD
+
     protected void Page_Load(object sender, EventArgs e)
     {
 
     }
-=======
+<<<<<<< HEAD
 
-   
->>>>>>> 2e491b1de327222d6cd3f14ccee621247ed68c14
+=======
+>>>>>>> 965cc689ee7985d252ec2eeb3a243fea99e47970
 }
