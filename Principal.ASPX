@@ -1,10 +1,7 @@
-<<<<<<< HEAD
+
 
 <%@ Page Language="C#" AutoEventWireup="true" CodeFile="principal.aspx.cs" Inherits="principal" %>
 
-=======
-<%--<%@ Page Language="C#" AutoEventWireup="true" CodeFile="principal.aspx.cs" Inherits="principal" %>--%>
->>>>>>> 965cc689ee7985d252ec2eeb3a243fea99e47970
 
 <!DOCTYPE html>
 

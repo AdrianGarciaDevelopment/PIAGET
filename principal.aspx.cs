@@ -12,8 +12,4 @@ public partial class Principal : System.Web.UI.Page
     {
 
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> 965cc689ee7985d252ec2eeb3a243fea99e47970
 }
