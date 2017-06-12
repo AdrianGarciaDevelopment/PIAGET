@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-=======
+
 <%@ Page Language="C#" AutoEventWireup="true" CodeFile="principal.aspx.cs" Inherits="principal" %>
->>>>>>> 2e491b1de327222d6cd3f14ccee621247ed68c14
+
 
 <!DOCTYPE html>
 
@@ -25,10 +24,10 @@
             <DynamicMenuStyle BackColor="#F7F6F3" />
             <DynamicSelectedStyle BackColor="#5D7B9D" />
             <Items>
-                <asp:MenuItem NavigateUrl="~/Cajeros.aspx" Text="Cajeros" Value="Cajeros"></asp:MenuItem>
-                <asp:MenuItem NavigateUrl="~/InsercionUsuario.aspx" Text="Usuarios" Value="Usuarios"></asp:MenuItem>
-                <asp:MenuItem NavigateUrl="~/Sucursal.aspx" Text="Sucursal" Value="Sucursal"></asp:MenuItem>
-                <asp:MenuItem NavigateUrl="Incidentes.aspx" Text="Incidentes" Value="Incidentes"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="cajeros.aspx" Text="Cajeros" Value="Cajeros"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="usuarios.aspx" Text="Usuarios" Value="Usuarios"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="sucursales.aspx" Text="Sucursales" Value="Sucursal"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="incidentes.aspx" Text="Incidentes" Value="Incidentes"></asp:MenuItem>
             </Items>
             <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
             <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
@@ -38,7 +37,7 @@
 
     
     </div>
-        <div style="text-align: center; width:100%;"><img src="http://icon-icons.com/icons2/67/PNG/512/shop_13338.png"</div>
+        <div style="text-align: center; width:100%;"><img src="http://icon-icons.com/icons2/67/PNG/512/shop_13338.png" style="width: 300px; height: 300px;"/></div>
 
         
     </form>
