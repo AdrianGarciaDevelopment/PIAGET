@@ -24,7 +24,6 @@
             <DynamicMenuStyle BackColor="#F7F6F3" />
             <DynamicSelectedStyle BackColor="#5D7B9D" />
             <Items>
-                <asp:MenuItem NavigateUrl="Incidentes.aspx" Text="Incidentes" Value="Incidentes"></asp:MenuItem>
                 <asp:MenuItem NavigateUrl="cajeros.aspx" Text="Cajeros" Value="Cajeros"></asp:MenuItem>
                 <asp:MenuItem NavigateUrl="usuarios.aspx" Text="Usuarios" Value="Usuarios"></asp:MenuItem>
                 <asp:MenuItem NavigateUrl="sucursales.aspx" Text="Sucursales" Value="Sucursal"></asp:MenuItem>
