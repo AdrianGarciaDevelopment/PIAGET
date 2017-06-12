@@ -10,7 +10,7 @@ using System.Configuration;
 
 namespace ExamenAdriansilloEfraFinal
 {
-    public partial class Usuario : System.Web.UI.Page
+    public partial class usuarios : System.Web.UI.Page
     {
 		
         MySqlConnection con = new MySqlConnection("server=64.62.211.131; Database=efrain_basenube; Uid=efrain_efrain; pwd=123456789efra; ");

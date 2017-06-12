@@ -31,7 +31,7 @@ public partial class login : System.Web.UI.Page
             adapter.Fill(dt);
             if (dt.Rows.Count == 1)
             {
-                Response.Redirect("Principal.aspx"); //<<<----AQUI VA LA PAGINA A QUE REDIRIGIRA EN CASO DE QUE SI PUEDA ENTRAR
+                Response.Redirect("principal.aspx"); //<<<----AQUI VA LA PAGINA A QUE REDIRIGIRA EN CASO DE QUE SI PUEDA ENTRAR
             }
             else
             {
