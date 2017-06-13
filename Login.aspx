@@ -4,9 +4,10 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link href="StyleSheet.css" rel="stylesheet" />
+    
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>LOGIN</title>
+    <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
