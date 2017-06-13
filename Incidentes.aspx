@@ -1,5 +1,5 @@
 ﻿
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Incidentes.aspx.cs" Inherits="asignacion" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="incidentes.aspx.cs" Inherits="asignacion" %>
 
 <!DOCTYPE html>
 
