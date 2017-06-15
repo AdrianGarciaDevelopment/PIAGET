@@ -9,7 +9,7 @@
     <title>LOGIN</title>
     <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body class="body_1">
     <form id="form1" runat="server">
    <h1 class="tituloPrincipal_1">!Bienvenidos al login!</h1>
     <div class="divCentrado_1">
