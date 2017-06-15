@@ -15,3 +15,35 @@
 .body_1 {
     background-image: url("imgs/FondoLogin.jpg");
 }
+
+.body_2 {
+    background-image: url("imgs/FondoPrincipal.jpg");
+}
+
+.tituloPrincipal_2 {
+    text-align: center;
+    margin: auto;
+}
+
+.menuPrincipal_2 {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.imagenPrincipal_2 {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.alineacionPrincipal_2 {
+    border-color: aqua;
+    border-style: dashed;
+}
+
+.cuerpoPrincipal_2 {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
