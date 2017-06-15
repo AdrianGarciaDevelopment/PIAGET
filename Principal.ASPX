@@ -29,6 +29,7 @@
                 <asp:MenuItem NavigateUrl="usuarios.aspx" Text="Usuarios" Value="Usuarios"></asp:MenuItem>
                 <asp:MenuItem NavigateUrl="sucursales.aspx" Text="Sucursales" Value="Sucursal"></asp:MenuItem>
                 <asp:MenuItem NavigateUrl="incidentes.aspx" Text="Incidentes" Value="Incidentes"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="asignacion.aspx" Text="Asignacion" Value="Asignacion"></asp:MenuItem>
             </Items>
             <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
             <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
