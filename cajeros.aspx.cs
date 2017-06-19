@@ -119,7 +119,7 @@ public partial class cajeros : System.Web.UI.Page
             BinaryReader br = new BinaryReader(fs);
             byte[] bytes = br.ReadBytes((Int32)fs.Length);
             cmd.CommandText = "INSERT INTO cajero (nom_caj, ap_caj, am_caj, foto_caj, tel_caj, dir_caj, contrato_caj, descanso_caj,FKid_suc) " +
-            "VALUES('" + nombre.Text + "','" + app.Text + "','" + apm.Text + "','" + bytes + "','" + tel.Text + "','" + dir.Text + "','" + contrato.Text + "','" + descanso.Text + "','" + sucursal.Text + "')";
+            "VALUES('" + nombre.Text + "','" + app.Text + "','" + apm.Text + "','" + bytes + "','" + tel.Text + "','" + dir.Text + "','" + contrato.Text + "','" + descanso.Text + "'," + sucursal.Text + ")";
             cmd.ExecuteNonQuery();
 
             mensage.Text = "insertado con exito!";
