@@ -1,14 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="cajeros.aspx.cs" Inherits="cajeros" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="cajeros.aspx.cs" Inherits="cajeros" UnobtrusiveValidationMode="None" %>
 
 <!DOCTYPE html>
-<script runat="server">
-
-  
-</script>
-
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head id="Head1" runat="server">
+<head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Document</title>
         <style>
@@ -63,7 +58,7 @@
             }
             
             li::before{
-                content: "?";
+                content: "★";
             }
             
             div.pie{
@@ -111,13 +106,18 @@
     <form id="form1" runat="server">
     <div class="titulo">
           <img src="usuario.png" alt=""/>
-           <h1> CAJEROS </h1>
+           <h1>★ CAJEROS ★</h1>
        </div>
         <div class="table">
             <div class="cell">
               <div class="menu">
                <h3>MENU DEL SISTEMA</h3>
-               
+                <ul>
+                    <li><a href="Inicio.html">INICIO</a></li>
+                    <li><a href="Usuario.aspx">USUARIOS</a></li>
+                    <li><a href="cajeros.aspx">CAJEROS</a></li>
+                    <li><a href="sucursales.aspx">SUCURSALES</a></li>
+                </ul> 
               </div>
             </div>
             <div class="cell">
@@ -144,7 +144,7 @@
                     </tr>
                     <tr>
                         <td>Foto</td>
-                        <asp:FileUpload ID="FileUpload1" runat="server" />
+                        <td><asp:FileUpload ID="FileUpload1" runat="server" /></td>
                       <!--  <td><asp:TextBox ID="foto" runat="server"></asp:TextBox></td> -->
                         <td><asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ErrorMessage="Campo necesario" InitialValue=""  ControlToValidate="foto" ValidationGroup="grupoAE"></asp:RequiredFieldValidator></td>
                     </tr>
