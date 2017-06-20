@@ -44,7 +44,7 @@ namespace ExamenAdriansilloEfraFinal
             {
                 con.Open();
                 MySqlCommand consulta = con.CreateCommand();
-                consulta.CommandText = "SELECT A.id_caj, A.nom_caj, A.ap_caj, A.am_caj, A.foto_caj, A.tel_caj, A.dir_caj, A.contrato_caj, A.descanso_caj,B.nom_suc " +
+                consulta.CommandText = "SELECT A.id_caj, A.nom_caj, A.ap_caj, A.am_caj, A.tel_caj, A.dir_caj, A.contrato_caj, A.descanso_caj,B.nom_suc " +
                                        "FROM cajero A,sucursal B WHERE A.nom_caj LIKE '" + nombre.Text + "%' AND " +
                                                          // "A.ap_caj LIKE '" + app.Text + "%' AND " +
                                                          //"A.am_caj LIKE '" + apm.Text + "%' AND " +
