@@ -112,7 +112,7 @@ public partial class asignacion : System.Web.UI.Page
 
             //ACTUALIZAR EN TABLA CAJERO
             String qs2 = "UPDATE Cajero SET FKid_suc=" + ddl_sucursales.SelectedValue + " WHERE id_caj="+tb_id.Text;
-            cmd.CommandText = qs;
+            cmd.CommandText = qs2;
             cmd.ExecuteNonQuery();
             //FIN DE ACUALIZACION
 
