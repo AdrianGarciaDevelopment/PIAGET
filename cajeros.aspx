@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="cajeros.aspx.cs" Inherits="cajeros" UnobtrusiveValidationMode="None" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="cajeros.aspx.cs" Inherits="cajeros" UnobtrusiveValidationMode="None" %>
 
 <!DOCTYPE html>
 
