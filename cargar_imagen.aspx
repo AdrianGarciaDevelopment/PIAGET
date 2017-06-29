@@ -6,19 +6,19 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <link href="css/StyleSheet.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
-    <div style="width:800px;margin-left:auto;margin-right:auto">
-        <table style="width: 80%;margin-left:auto;margin-right:auto;border:groove">
+    <div class="div_cargarimagen">
+        <table class="table_cargarimagen">
         <tr>
             <td>
-                ID Cajero
-            </td>
+                ID Cajero:</td>
             <td>
                  <div style="width:50%;margin-left:auto;margin-right:auto">
                
-                    <asp:TextBox ID="tb_id" runat="server" style="width:100%"></asp:TextBox>
+                    <asp:TextBox ID="tb_id" runat="server" Width="196px"></asp:TextBox>
                 
                  </div>
             </td>
@@ -28,7 +28,7 @@
             <td></td>
         </tr>
         <tr>
-            <td>Selecciona la Imagen</td>
+            <td>Selecciona la Imagen:</td>
             <td> 
                 <div style="width:50%;margin-left:auto;margin-right:auto">
                 

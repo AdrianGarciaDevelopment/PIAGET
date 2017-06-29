@@ -12,7 +12,7 @@
     <title></title>
     <link href="css/StyleSheet.css" rel="stylesheet" />
 </head>
-<body class="body_2">
+<body class="body_principal">
     <div class="alineacionPrincipal_2">
     <form id="form1" runat="server">
         <div class="tituloPrincipal_2">
@@ -42,7 +42,9 @@
         
 
     
-        <div class="cuerpoPrincipal_2"><img src="http://icon-icons.com/icons2/67/PNG/512/shop_13338.png" class="imagenPrincipal_2"/></div>
+        <div class="divPrincipal_principal">
+            <img src="http://icon-icons.com/icons2/67/PNG/512/shop_13338.png" />
+        </div>
 
         
     </form>
